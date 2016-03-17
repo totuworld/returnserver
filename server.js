@@ -21,6 +21,11 @@ function handleRequest(request, response){
     }
 }
 
+dispatcher.onGet('/', function(req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('main');
+});
+
 dispatcher.onGet(targetPath, function(req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end(returnValue);
