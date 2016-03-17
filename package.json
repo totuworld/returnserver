@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "4.x.x"
+  },
   "author": "totuworld",
   "dependencies": {
     "httpdispatcher": "^1.0.0"
