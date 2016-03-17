@@ -3,7 +3,8 @@
 const http = require('http');
 const dispatcher = require('httpdispatcher');
 
-const PORT=8080;
+const PORT=process.env.PORT || 3000;
+console.log(PORT);
 
 //targetpath는 원하는 주소로 변경합니다.
 let targetPath = '/.well-known/acme-challenge/bwS7Q_TCJrt8s1HvM8gg83WN9x9I8jLrCCWNtUUd05k';
