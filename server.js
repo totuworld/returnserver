@@ -7,9 +7,9 @@ const PORT=process.env.PORT || 3000;
 console.log(PORT);
 
 //targetpath는 원하는 주소로 변경합니다.
-let targetPath = '/.well-known/acme-challenge/bwS7Q_TCJrt8s1HvM8gg83WN9x9I8jLrCCWNtUUd05k';
+let targetPath = '/.well-known/acme-challenge/ugn6HlGHzE5NBsvrfYCDscD0l35oatKnROdFXWv3HIg';
 //returnValue는 돌려줘야하는 값을 넣습니다.
-let returnValue = 'bwS7Q_TCJrt8s1HvM8gg83WN9x9I8jLrCCWNtUUd05k.IBkQXVLbjkDk12yEvZSRNwSrUgZx3j23HgqTrqwP1KU'; 
+let returnValue = 'ugn6HlGHzE5NBsvrfYCDscD0l35oatKnROdFXWv3HIg.IBkQXVLbjkDk12yEvZSRNwSrUgZx3j23HgqTrqwP1KU'; 
 
 function handleRequest(request, response){
     try {
